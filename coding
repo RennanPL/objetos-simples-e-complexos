@@ -1,0 +1,12 @@
+#objeto complexo----
+regWomen <- lm(height~.,women)
+summary(regWomen)
+View(women)
+
+#objeto simples----
+europa_ww <- data.frame(
+  país = c("Alemanha", "França", "Espanha", "Portugal", "Itália"),
+  posicionamento = c(1, 2, 3, 3, 1),
+  regime = c(1, 2, 1, 1, 1 ),
+  primeira_guerra = c(1, 2, 3, 2, 2)
+) 
